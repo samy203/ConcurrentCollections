@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmitOrders", "SubmitOrders\SubmitOrders.csproj", "{FA18027A-48AE-4012-BD2B-D8C3188531BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubmitOrders", "SubmitOrders\SubmitOrders.csproj", "{FA18027A-48AE-4012-BD2B-D8C3188531BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellShirts", "SellShirts\SellShirts.csproj", "{B841C70E-6CCA-4D10-A3B9-F108FC20C886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SellShirts", "SellShirts\SellShirts.csproj", "{B841C70E-6CCA-4D10-A3B9-F108FC20C886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyAndSell", "BuyAndSell\BuyAndSell.csproj", "{8DEE89F6-6B0F-49A9-8D1F-1334A31AA60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyAndSell", "BuyAndSell\BuyAndSell.csproj", "{8DEE89F6-6B0F-49A9-8D1F-1334A31AA60E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyAndSellWithLogs", "BuyAndSellWithLogs\BuyAndSellWithLogs.csproj", "{943BFFD7-FB6E-4F80-89A6-9AC45FE551A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyAndSellWithLogs", "BuyAndSellWithLogs\BuyAndSellWithLogs.csproj", "{943BFFD7-FB6E-4F80-89A6-9AC45FE551A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyAndSellWithBlockingCollection", "BuyAndSellWithBlockingCollection\BuyAndSellWithBlockingCollection.csproj", "{636D9BFE-4574-4F5B-9BA5-FB426BECA3BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyAndSellWithBlockingCollection", "BuyAndSellWithBlockingCollection\BuyAndSellWithBlockingCollection.csproj", "{636D9BFE-4574-4F5B-9BA5-FB426BECA3BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{8C56AB3A-3E35-4095-9944-AE3B92E47D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{8C56AB3A-3E35-4095-9944-AE3B92E47D1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerateDictionary", "EnumerateDictionary\EnumerateDictionary.csproj", "{63513645-D630-43B5-A34E-36B014DE30AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelFor", "ParallelFor\ParallelFor.csproj", "{2C7215A1-B2A8-40A0-91D7-6D41E2457ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocal", "ThreadLocal\ThreadLocal.csproj", "{5DAAB033-5C63-4550-B0C1-B79CB1AB829B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancellation", "TaskCancellation\TaskCancellation.csproj", "{F7782905-9FD4-4299-B69C-E9979A1664D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +51,18 @@ Global
 		{8C56AB3A-3E35-4095-9944-AE3B92E47D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C56AB3A-3E35-4095-9944-AE3B92E47D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C56AB3A-3E35-4095-9944-AE3B92E47D1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63513645-D630-43B5-A34E-36B014DE30AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63513645-D630-43B5-A34E-36B014DE30AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63513645-D630-43B5-A34E-36B014DE30AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63513645-D630-43B5-A34E-36B014DE30AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7215A1-B2A8-40A0-91D7-6D41E2457ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7215A1-B2A8-40A0-91D7-6D41E2457ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7215A1-B2A8-40A0-91D7-6D41E2457ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7215A1-B2A8-40A0-91D7-6D41E2457ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAAB033-5C63-4550-B0C1-B79CB1AB829B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAAB033-5C63-4550-B0C1-B79CB1AB829B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAAB033-5C63-4550-B0C1-B79CB1AB829B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAAB033-5C63-4550-B0C1-B79CB1AB829B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7782905-9FD4-4299-B69C-E9979A1664D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7782905-9FD4-4299-B69C-E9979A1664D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7782905-9FD4-4299-B69C-E9979A1664D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7782905-9FD4-4299-B69C-E9979A1664D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
